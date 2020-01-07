@@ -26,7 +26,6 @@ namespace kontent_sample_app_conference_net.Controllers
         private String GetProjectId()
         {
             string result = Configuration.GetSection("DeliveryOptions").GetValue<string>("ProjectId");
-
             return result;
         }
 
