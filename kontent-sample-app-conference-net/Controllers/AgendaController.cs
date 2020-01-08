@@ -32,5 +32,18 @@ namespace kontent_sample_app_conference_net.Controllers
 
             return View(item);
         }
+        public async Task<ActionResult> Detail(string urlSlug, string location)
+        {
+            ViewBag.location = location;
+
+            DeliveryItemListingResponse<AgendaItem> response = await DeliveryClient.GetItemsAsync<AgendaItem>(
+                new EqualsFilter("system.type", "agenda_item"),
+                new ContainsFilter("elements.location", location.ToLower()),
+                new EqualsFilter("elements.url_slug", urlSlug),
+                new DepthParameter(2)
+                );
+
+            return View(response.Items[0]);
+        }
     }
 }
