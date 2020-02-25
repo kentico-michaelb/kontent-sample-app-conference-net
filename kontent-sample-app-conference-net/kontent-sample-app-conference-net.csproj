@@ -9,9 +9,17 @@
 
   <ItemGroup>
     <Compile Remove="wwwroot\lib.old\**" />
+    <Compile Remove="wwwroot\lib\owlcarousel\**" />
+    <Compile Remove="wwwroot\lib\venobox\**" />
     <Content Remove="wwwroot\lib.old\**" />
+    <Content Remove="wwwroot\lib\owlcarousel\**" />
+    <Content Remove="wwwroot\lib\venobox\**" />
     <EmbeddedResource Remove="wwwroot\lib.old\**" />
+    <EmbeddedResource Remove="wwwroot\lib\owlcarousel\**" />
+    <EmbeddedResource Remove="wwwroot\lib\venobox\**" />
     <None Remove="wwwroot\lib.old\**" />
+    <None Remove="wwwroot\lib\owlcarousel\**" />
+    <None Remove="wwwroot\lib\venobox\**" />
   </ItemGroup>
 
   <ItemGroup>
