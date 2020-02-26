@@ -101,4 +101,4 @@ For details about the Kentico Konten .NET SDK used throughout this project, plea
 
 Edit mode has been enabled on the "Home" and "Agenda" pages in the sample site using the steps from the Kontent documentation here: [Editing content directly from your app](https://docs.kontent.ai/tutorials/write-and-collaborate/preview-content/editing-content-directly-from-your-app). 
 
-Editing an item in Kontent requires the user to be [added to the project](https://docs.kontent.ai/tutorials/set-up-projects/manage-your-team/inviting-and-deactivating-users#a-inviting-a-new-user) and authentication.
+Editing an item in Kontent requires the user to be [added to the project](https://docs.kontent.ai/tutorials/set-up-projects/manage-your-team/inviting-and-deactivating-users#a-inviting-a-new-user) and logged in to Kentico Kontent.
