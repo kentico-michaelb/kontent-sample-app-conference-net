@@ -58,7 +58,7 @@ To run the app:
   "DeliveryOptions": {
     "ProjectId": "YOUR_PROJECT_ID",
     "UsePreviewApi": true,
-		"PreviewApiKey": "YOUR_DELIVERY_PREVIEW_API_KEY"
+    "PreviewApiKey": "YOUR_DELIVERY_PREVIEW_API_KEY"
   }
 ```
 5. Save the changes.
@@ -66,12 +66,12 @@ To run the app:
 
 ## Migration scripts
 
-**Note:** migrating a copy of the sample site requires access to the [Management API] (https://docs.kontent.ai/reference/management-api-v2) available in the Trial, Business, or Enterprise plans. Please check your [subscription](https://docs.kontent.ai/tutorials/manage-subscriptions-and-user-accounts/subscriptions/checking-your-usage-report) to verify your tier.
+**Note:** migrating a copy of the sample site requires access to the [Management API](https://docs.kontent.ai/reference/management-api-v2) available in the Trial, Business, or Enterprise plans. Please check your [subscription](https://docs.kontent.ai/tutorials/manage-subscriptions-and-user-accounts/subscriptions/checking-your-usage-report) to verify your tier.
 
 A Migration tool for a copying this sample site to your subscription is available here: https://github.com/pokornyd/konference-migration-scripts . This two provides two options:
 
-	*A "full" copy that includes Content Types, Taxnomies, Assets, and Content Items
-	*A "minimal" copy that includes Content Types and Taxnomies, but no Content Items or Assets
+* A "Full" copy that includes Content Types, Taxnomies, Assets, and Content Items
+* A "Minimal" copy that includes Content Types and Taxnomies, but no Content Items or Assets
 	
 The "Full" copy is a working example containing three conferences and is meant for demonstration or as a reference.
 The "Minimal" copy acts a clean boilerplate that you can use to create your own conference site.
