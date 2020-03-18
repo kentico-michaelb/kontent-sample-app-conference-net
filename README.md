@@ -95,7 +95,7 @@ After using either the "Full" or "Minimal" migrations above, you can manage your
 3. Managing content in the content administration interface of your migrated project.
 
 You can learn more about content editing with Kentico Kontent in our [Help Center](https://docs.kontent.ai/).
-Instructions for managing the Conference site's content can also be seen here: [Managing the sample conference site](https://github.com/kentico-michaelb/kontent-sample-app-conference-net/wiki/Managing-the-sample-conference-site)
+Instructions for managing the Conference site's content can also be seen here: [Managing the sample conference site](https://github.com/kentico-michaelb/kontent-sample-app-conference-net/wiki/Managing-the-sample-conference-site) and [Using the "Minimal" copy](https://github.com/kentico-michaelb/kontent-sample-app-conference-net/wiki/Managing-the-sample-conference-site#using-the-minimal-copy)
 
 ## Content delivery
 
