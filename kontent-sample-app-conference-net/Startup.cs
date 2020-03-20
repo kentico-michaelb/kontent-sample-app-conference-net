@@ -55,7 +55,7 @@ namespace kontent_sample_app_conference_net
                 );
                 routes.MapRoute(
                     name: "speaker",
-                    template: "{location}/Speakers/{id}",
+                    template: "{location}/Speakers/{codename}",
                     defaults: new { controller = "Speakers", action = "Detail" }
                 );
 

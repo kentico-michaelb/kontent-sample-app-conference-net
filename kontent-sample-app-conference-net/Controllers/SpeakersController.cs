@@ -23,12 +23,12 @@ namespace kontent_sample_app_conference_net.Controllers
             return View(response.Items);
         }
 
-        public async Task<ActionResult> Detail(string id, string location)
+        public async Task<ActionResult> Detail(string codename, string location)
         {
             ViewBag.location = location;
 
             DeliveryItemListingResponse<Speaker> response = await DeliveryClient.GetItemsAsync<Speaker>(
-                new EqualsFilter("elements.speaker_id", id)
+                new EqualsFilter("system.codename", codename)
                 );
                 
             return View(response.Items[0]);
