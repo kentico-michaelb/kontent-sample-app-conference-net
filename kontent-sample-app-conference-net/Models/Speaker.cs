@@ -17,14 +17,12 @@ namespace KenticoKontentModels
         public const string BioCodename = "bio";
         public const string JobTitleCodename = "job_title";
         public const string PhotoCodename = "photo";
-        public const string SpeakerIdCodename = "speaker_id";
         public const string FirstNameCodename = "first_name";
 
         public string LastName { get; set; }
         public string Bio { get; set; }
         public string JobTitle { get; set; }
         public IEnumerable<Asset> Photo { get; set; }
-        public string SpeakerId { get; set; }
         public string FirstName { get; set; }
         public ContentItemSystemAttributes System { get; set; }
     }

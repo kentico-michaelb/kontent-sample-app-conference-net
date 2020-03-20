@@ -12,7 +12,6 @@ namespace KenticoKontentModels
             {typeof(Agenda), "agenda"},
             {typeof(AgendaBlock), "agenda_block"},
             {typeof(AgendaItem), "agenda_item"},
-            {typeof(ContactInformation), "contact_information"},
             {typeof(Home), "home"},
             {typeof(HubspotForm), "hubspot_form"},
             {typeof(Presentation), "presentation"},
