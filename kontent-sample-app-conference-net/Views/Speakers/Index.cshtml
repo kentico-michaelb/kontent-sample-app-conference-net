@@ -11,7 +11,7 @@
             @foreach (Speaker sp in Model)
             {
                 <div class="col-lg-3 col-md-6 col-xs-6">
-                    <a asp-route="speaker" asp-route-id="@sp.SpeakerId">
+                    <a asp-route="speaker" asp-route-codename="@sp.System.Codename">
                         <div class="speaker">
                             @if (sp.Photo.Any())
                             {
