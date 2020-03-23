@@ -1,37 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <RootNamespace>kontent_sample_app_conference_net</RootNamespace>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\lib.old\**" />
-    <Compile Remove="wwwroot\lib\owlcarousel\**" />
-    <Compile Remove="wwwroot\lib\venobox\**" />
-    <Content Remove="wwwroot\lib.old\**" />
-    <Content Remove="wwwroot\lib\owlcarousel\**" />
-    <Content Remove="wwwroot\lib\venobox\**" />
-    <EmbeddedResource Remove="wwwroot\lib.old\**" />
-    <EmbeddedResource Remove="wwwroot\lib\owlcarousel\**" />
-    <EmbeddedResource Remove="wwwroot\lib\venobox\**" />
-    <None Remove="wwwroot\lib.old\**" />
-    <None Remove="wwwroot\lib\owlcarousel\**" />
-    <None Remove="wwwroot\lib\venobox\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="wwwroot\css\site.css" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <PackageReference Include="Kentico.Kontent.Delivery" Version="12.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Kentico.Kontent.Delivery" Version="12.3.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
 
 
