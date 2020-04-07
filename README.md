@@ -1,6 +1,6 @@
 # Kentico Kontent ASP.NET Core MVC Conference Web Application
 
-This is a sample website written in .NET Core 2.2 that uses the Kentico Kontent Delivery .NET SDK to manage and retrieve content from Kentico Kontent. 
+This is a sample website written in .NET Core 3.1 that uses the Kentico Kontent Delivery .NET SDK to manage and retrieve content from Kentico Kontent. 
 The sample site demonstrates how to use Kentico Kontent to create and manage a conference website including support for: multiple events, agendas, speaker biographies, venue descriptions, and registrations using a HubSpot form.
 
 You can see the site in action at: https://konnections.herokuapp.com/
