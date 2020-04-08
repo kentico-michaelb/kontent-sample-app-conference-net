@@ -1,8 +1,8 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS base
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
 COPY kontent-sample-app-conference-net.csproj .
 RUN dotnet restore kontent-sample-app-conference-net.csproj
